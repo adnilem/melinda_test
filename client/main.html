@@ -1,0 +1,23 @@
+<head>
+  <title>melinda_test</title>
+</head>
+
+<body>
+  <h1>Welcome to chart.js!</h1>
+  {{> bouton}}
+  {{> chart}}
+</body>
+
+<template name="chart">
+  <div>
+    <h3>salut</h3>
+    <canvas id="myChart" width="400" height="100">
+        <p>Hello Fallback World</p>
+    </canvas>
+  </div>
+</template>
+
+<template name="bouton">
+    <button id="leBouton">Créer graphique</button> 
+  </template>
+
